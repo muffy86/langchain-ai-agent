@@ -1,0 +1,35 @@
+# Buildkite Pipeline for LangChain AI Agent
+
+steps:
+  - label: ":pytest: Run Tests"
+    command: |
+      pip install -r requirements.txt
+      pytest tests/ -v --cov=src
+    agents:
+      queue: "default"
+
+  - label: ":python: Code Quality"
+    command: |
+      pip install black flake8
+      black --check src/
+      flake8 src/
+    agents:
+      queue: "default"
+
+  - label: ":docker: Build Docker Image"
+    command: |
+      docker build -t langchain-ai-agent:$BUILDKITE_BUILD_NUMBER .
+      docker tag langchain-ai-agent:$BUILDKITE_BUILD_NUMBER langchain-ai-agent:latest
+    agents:
+      queue: "default"
+
+  - wait
+
+  - label: ":rocket: Deploy to Production"
+    command: |
+      echo "Deploying version $BUILDKITE_BUILD_NUMBER"
+      # Add deployment commands here
+      docker push langchain-ai-agent:$BUILDKITE_BUILD_NUMBER
+    agents:
+      queue: "default"
+    branches: "main"
