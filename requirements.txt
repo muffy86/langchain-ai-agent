@@ -1,0 +1,21 @@
+# Core dependencies
+langchain==0.1.0
+langchain-openai==0.0.2
+openai==1.6.1
+
+# Additional tools and utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Optional: Database support
+sqlalchemy==2.0.23
+
+# Optional: Web scraping
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Testing and quality
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.12.1
+flake8==6.1.0
