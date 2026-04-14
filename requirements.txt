@@ -96,7 +96,7 @@ wandb==0.16.2
 # Rate Limiting & Queue Management
 celery==5.3.6
 rabbitmq==0.2.0
-apache-airflow==2.8.1
+apache-airflow==3.2.0
 
 # Additional Tools
 python-dotenv==1.0.0
