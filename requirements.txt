@@ -99,7 +99,7 @@ rabbitmq==0.2.0
 apache-airflow==2.8.1
 
 # Additional Tools
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 requests==2.31.0
 aiohttp==3.9.1
 httpx==0.26.0
