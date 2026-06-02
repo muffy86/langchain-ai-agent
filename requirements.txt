@@ -120,7 +120,7 @@ ipython==8.20.0
 nbformat==5.9.2
 
 # Utilities
-python-json-logger==2.0.7
+python-json-logger==4.1.0
 rich==13.7.0
 click==8.1.7
 pyyaml==6.0.1
