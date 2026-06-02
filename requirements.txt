@@ -61,7 +61,7 @@ pylint==3.0.3
 # Second Brain / Knowledge Management
 notion-client==2.2.1
 obsidian-py==1.1.0
-mkdocs==1.5.3
+mkdocs==1.6.1
 mkdocs-material==9.5.3
 
 # Multi-Agent Frameworks
