@@ -5,7 +5,7 @@
 # Core AI Frameworks
 langchain==0.1.0
 langchain-openai==0.0.2
-langchain-anthropic==0.0.1
+langchain-anthropic==1.4.4
 langchain-google-genai==0.0.5
 langchain-community==0.0.13
 openai==1.6.1
