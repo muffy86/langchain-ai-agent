@@ -22,7 +22,7 @@ faiss-cpu==1.7.4
 
 # Embeddings & NLP
 sentence-transformers==2.2.2
-transformers==4.36.2
+transformers==5.10.1
 torch==2.1.2
 tensorflow==2.15.0
 
