@@ -67,7 +67,7 @@ mkdocs-material==9.5.3
 # Multi-Agent Frameworks
 autogen==0.2.5
 crewai==0.1.30
-langgraph==0.0.20
+langgraph==1.2.11
 
 # Advanced NLP
 spacy==3.8.14
