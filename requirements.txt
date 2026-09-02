@@ -112,7 +112,7 @@ pytest-cov==4.1.0
 pytest-asyncio==0.23.3
 black==23.12.1
 flake8==7.0.0
-mypy==1.8.0
+mypy==2.3.1
 
 # Jupyter & Notebooks
 jupyter==1.0.0
