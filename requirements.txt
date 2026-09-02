@@ -37,7 +37,7 @@ CLIP @ git+https://github.com/openai/CLIP.git
 open-clip-torch==2.23.0
 
 # Database & Storage
-redis==5.0.1
+redis==8.1.0
 postgresql==1.0.0
 psycopg2-binary==2.9.9
 mongodb==4.6
