@@ -62,7 +62,7 @@ pylint==3.0.3
 notion-client==2.2.1
 obsidian-py==1.1.0
 mkdocs==1.5.3
-mkdocs-material==9.5.3
+mkdocs-material==9.7.7
 
 # Multi-Agent Frameworks
 autogen==0.2.5
