@@ -47,7 +47,7 @@ alembic==1.13.1
 
 # Dev Environment Integration
 github==1.59
-gitpython==3.1.58
+gitpython==3.2.1
 docker==7.0.0
 kubernetes==29.0.0
 
