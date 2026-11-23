@@ -17,7 +17,7 @@ cohere==4.37
 chromadb==0.4.22
 pinecone-client==3.0.0
 weaviate-client==3.26.0
-qdrant-client==1.7.0
+qdrant-client==1.9.0
 faiss-cpu==1.7.4
 
 # Embeddings & NLP
